@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32F9B5A6B660D2FE353915AA /* Pods_Sample_ImageOnOff.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05F08040C6C1D94777EDAEE8 /* Pods_Sample_ImageOnOff.framework */; };
 		866971A9278E50E800F5A1B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866971A8278E50E800F5A1B7 /* AppDelegate.swift */; };
 		866971AB278E50E800F5A1B7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866971AA278E50E800F5A1B7 /* SceneDelegate.swift */; };
 		866971AD278E50E800F5A1B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866971AC278E50E800F5A1B7 /* ViewController.swift */; };
@@ -15,9 +16,14 @@
 		866971B5278E50E900F5A1B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 866971B3278E50E900F5A1B7 /* LaunchScreen.storyboard */; };
 		866971BF278E526800F5A1B7 /* lamp_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 866971BD278E526800F5A1B7 /* lamp_off.png */; };
 		866971C0278E526800F5A1B7 /* lamp_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 866971BE278E526800F5A1B7 /* lamp_on.png */; };
+		866971C3278EB6EE00F5A1B7 /* SelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866971C2278EB6EE00F5A1B7 /* SelectViewController.swift */; };
+		8669CBA4278EC23100FB230B /* Tyranno.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8669CBA3278EC23100FB230B /* Tyranno.gif */; };
+		8669CBA6278EC27900FB230B /* GIFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8669CBA5278EC27900FB230B /* GIFViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05F08040C6C1D94777EDAEE8 /* Pods_Sample_ImageOnOff.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sample_ImageOnOff.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67BAF48F777CCEB45DF05D94 /* Pods-Sample_ImageOnOff.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample_ImageOnOff.release.xcconfig"; path = "Target Support Files/Pods-Sample_ImageOnOff/Pods-Sample_ImageOnOff.release.xcconfig"; sourceTree = "<group>"; };
 		866971A5278E50E800F5A1B7 /* Sample_ImageOnOff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sample_ImageOnOff.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		866971A8278E50E800F5A1B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		866971AA278E50E800F5A1B7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,6 +34,10 @@
 		866971B6278E50E900F5A1B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		866971BD278E526800F5A1B7 /* lamp_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamp_off.png; sourceTree = "<group>"; };
 		866971BE278E526800F5A1B7 /* lamp_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamp_on.png; sourceTree = "<group>"; };
+		866971C2278EB6EE00F5A1B7 /* SelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectViewController.swift; sourceTree = "<group>"; };
+		8669CBA3278EC23100FB230B /* Tyranno.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Tyranno.gif; sourceTree = "<group>"; };
+		8669CBA5278EC27900FB230B /* GIFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFViewController.swift; sourceTree = "<group>"; };
+		89E436BE664C87F561E126AB /* Pods-Sample_ImageOnOff.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample_ImageOnOff.debug.xcconfig"; path = "Target Support Files/Pods-Sample_ImageOnOff/Pods-Sample_ImageOnOff.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32F9B5A6B660D2FE353915AA /* Pods_Sample_ImageOnOff.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +58,8 @@
 				866971BC278E523000F5A1B7 /* Images */,
 				866971A7278E50E800F5A1B7 /* Sample_ImageOnOff */,
 				866971A6278E50E800F5A1B7 /* Products */,
+				CFD8F00A0D0BF7052E5CDDA3 /* Pods */,
+				F34A5BAAC0A20C09F5F21656 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,6 +81,8 @@
 				866971B1278E50E900F5A1B7 /* Assets.xcassets */,
 				866971B3278E50E900F5A1B7 /* LaunchScreen.storyboard */,
 				866971B6278E50E900F5A1B7 /* Info.plist */,
+				866971C2278EB6EE00F5A1B7 /* SelectViewController.swift */,
+				8669CBA5278EC27900FB230B /* GIFViewController.swift */,
 			);
 			path = Sample_ImageOnOff;
 			sourceTree = "<group>";
@@ -77,8 +92,26 @@
 			children = (
 				866971BD278E526800F5A1B7 /* lamp_off.png */,
 				866971BE278E526800F5A1B7 /* lamp_on.png */,
+				8669CBA3278EC23100FB230B /* Tyranno.gif */,
 			);
 			path = Images;
+			sourceTree = "<group>";
+		};
+		CFD8F00A0D0BF7052E5CDDA3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				89E436BE664C87F561E126AB /* Pods-Sample_ImageOnOff.debug.xcconfig */,
+				67BAF48F777CCEB45DF05D94 /* Pods-Sample_ImageOnOff.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F34A5BAAC0A20C09F5F21656 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05F08040C6C1D94777EDAEE8 /* Pods_Sample_ImageOnOff.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -88,9 +121,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 866971B9278E50E900F5A1B7 /* Build configuration list for PBXNativeTarget "Sample_ImageOnOff" */;
 			buildPhases = (
+				B44CDBB23273EDA867603DA3 /* [CP] Check Pods Manifest.lock */,
 				866971A1278E50E800F5A1B7 /* Sources */,
 				866971A2278E50E800F5A1B7 /* Frameworks */,
 				866971A3278E50E800F5A1B7 /* Resources */,
+				4C0C90719FE01AB4F4A3D0AF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -140,6 +175,7 @@
 			files = (
 				866971B5278E50E900F5A1B7 /* LaunchScreen.storyboard in Resources */,
 				866971B2278E50E900F5A1B7 /* Assets.xcassets in Resources */,
+				8669CBA4278EC23100FB230B /* Tyranno.gif in Resources */,
 				866971C0278E526800F5A1B7 /* lamp_on.png in Resources */,
 				866971B0278E50E800F5A1B7 /* Main.storyboard in Resources */,
 				866971BF278E526800F5A1B7 /* lamp_off.png in Resources */,
@@ -148,11 +184,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4C0C90719FE01AB4F4A3D0AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sample_ImageOnOff/Pods-Sample_ImageOnOff-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sample_ImageOnOff/Pods-Sample_ImageOnOff-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sample_ImageOnOff/Pods-Sample_ImageOnOff-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B44CDBB23273EDA867603DA3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sample_ImageOnOff-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		866971A1278E50E800F5A1B7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8669CBA6278EC27900FB230B /* GIFViewController.swift in Sources */,
+				866971C3278EB6EE00F5A1B7 /* SelectViewController.swift in Sources */,
 				866971AD278E50E800F5A1B7 /* ViewController.swift in Sources */,
 				866971A9278E50E800F5A1B7 /* AppDelegate.swift in Sources */,
 				866971AB278E50E800F5A1B7 /* SceneDelegate.swift in Sources */,
@@ -299,6 +379,7 @@
 		};
 		866971BA278E50E900F5A1B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89E436BE664C87F561E126AB /* Pods-Sample_ImageOnOff.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -318,6 +399,7 @@
 		};
 		866971BB278E50E900F5A1B7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67BAF48F777CCEB45DF05D94 /* Pods-Sample_ImageOnOff.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

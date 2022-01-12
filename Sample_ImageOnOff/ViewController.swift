@@ -52,7 +52,6 @@ class ViewController: UIViewController {
             newWidth = imgView.frame.width / scale
             newHeight = imgView.frame.height / scale
         }
-        
         // 이미지 뷰 크기 세팅
         imgView.frame.size = CGSize(width: newWidth, height: newHeight)
         // isZoom의 상태가 true일때, (초기값이 false)
