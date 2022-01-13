@@ -77,12 +77,12 @@
 				866971A8278E50E800F5A1B7 /* AppDelegate.swift */,
 				866971AA278E50E800F5A1B7 /* SceneDelegate.swift */,
 				866971AC278E50E800F5A1B7 /* ViewController.swift */,
+				866971C2278EB6EE00F5A1B7 /* SelectViewController.swift */,
+				8669CBA5278EC27900FB230B /* GIFViewController.swift */,
 				866971AE278E50E800F5A1B7 /* Main.storyboard */,
 				866971B1278E50E900F5A1B7 /* Assets.xcassets */,
 				866971B3278E50E900F5A1B7 /* LaunchScreen.storyboard */,
 				866971B6278E50E900F5A1B7 /* Info.plist */,
-				866971C2278EB6EE00F5A1B7 /* SelectViewController.swift */,
-				8669CBA5278EC27900FB230B /* GIFViewController.swift */,
 			);
 			path = Sample_ImageOnOff;
 			sourceTree = "<group>";

@@ -5,7 +5,6 @@
 //  Created by ssemm on 2022/01/12.
 //
 
-// -- 소스 설명 --
 // 이미지 Images 폴더 생성 후 이미지 넣기
 // Main.storyboard에서 ImageView 
 

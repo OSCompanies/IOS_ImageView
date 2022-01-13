@@ -134,8 +134,34 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zyd-oC-KnG" customClass="GIFImageView" customModule="Gifu">
                                 <rect key="frame" x="53" y="137" width="308" height="547"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AKU-OS-KuI">
+                                <rect key="frame" x="80" y="736" width="100" height="30"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="pNf-VX-U4w"/>
+                                </constraints>
+                                <state key="normal" title="GO">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnGo:" destination="Pbj-S7-nfx" eventType="touchUpInside" id="Qbk-Oj-4lS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1ES-eK-qSJ">
+                                <rect key="frame" x="234" y="736" width="100" height="30"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="HzA-qZ-HfD"/>
+                                </constraints>
+                                <state key="normal" title="STOP">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnStop:" destination="Pbj-S7-nfx" eventType="touchUpInside" id="jSW-87-hYq"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ado-3t-GoK">
-                                <rect key="frame" x="181" y="784" width="52" height="30"/>
+                                <rect key="frame" x="53" y="80" width="52" height="30"/>
                                 <state key="normal" title="뒤로가기"/>
                                 <connections>
                                     <action selector="btnBack:" destination="Pbj-S7-nfx" eventType="touchUpInside" id="Nc1-O7-fcT"/>
@@ -145,12 +171,16 @@
                         <viewLayoutGuide key="safeArea" id="5Cy-hq-bHq"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="ado-3t-GoK" firstAttribute="leading" secondItem="5Cy-hq-bHq" secondAttribute="leading" constant="53" id="0sY-6d-2Lj"/>
                             <constraint firstItem="zyd-oC-KnG" firstAttribute="leading" secondItem="5Cy-hq-bHq" secondAttribute="leading" constant="53" id="4n1-Eg-XfA"/>
+                            <constraint firstItem="5Cy-hq-bHq" firstAttribute="trailing" secondItem="1ES-eK-qSJ" secondAttribute="trailing" constant="80" id="5Mb-XT-LTD"/>
                             <constraint firstItem="zyd-oC-KnG" firstAttribute="top" secondItem="5Cy-hq-bHq" secondAttribute="top" constant="93" id="8fh-Wj-hnC"/>
+                            <constraint firstItem="AKU-OS-KuI" firstAttribute="top" secondItem="zyd-oC-KnG" secondAttribute="bottom" constant="52" id="AkQ-VK-pAm"/>
                             <constraint firstItem="5Cy-hq-bHq" firstAttribute="trailing" secondItem="zyd-oC-KnG" secondAttribute="trailing" constant="53" id="Lfu-CF-X32"/>
-                            <constraint firstItem="ado-3t-GoK" firstAttribute="leading" secondItem="5Cy-hq-bHq" secondAttribute="leading" constant="181" id="SV4-wZ-6JB"/>
-                            <constraint firstItem="ado-3t-GoK" firstAttribute="top" secondItem="zyd-oC-KnG" secondAttribute="bottom" constant="100" id="Suo-an-dvw"/>
+                            <constraint firstItem="AKU-OS-KuI" firstAttribute="leading" secondItem="5Cy-hq-bHq" secondAttribute="leading" constant="80" id="TgU-j6-3yw"/>
                             <constraint firstItem="5Cy-hq-bHq" firstAttribute="bottom" secondItem="zyd-oC-KnG" secondAttribute="bottom" constant="178" id="UAS-AF-5IE"/>
+                            <constraint firstItem="1ES-eK-qSJ" firstAttribute="top" secondItem="zyd-oC-KnG" secondAttribute="bottom" constant="52" id="VkS-sa-1Mf"/>
+                            <constraint firstItem="zyd-oC-KnG" firstAttribute="top" secondItem="ado-3t-GoK" secondAttribute="bottom" constant="27" id="uu2-hx-vwZ"/>
                         </constraints>
                     </view>
                     <connections>
@@ -165,6 +195,9 @@
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

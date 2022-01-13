@@ -18,6 +18,8 @@ class SelectViewController: UIViewController {
     
     // GIF 버튼
     @IBAction func btnGIF(_ sender: UIButton) {
+        
+        // 코드를 사용하여 화면전환
         let vc = self.storyboard?.instantiateViewController(withIdentifier: "GIFViewController")
         
         vc?.modalPresentationStyle = .fullScreen
