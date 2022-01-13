@@ -17,25 +17,25 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="전구 확대" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jpu-b6-C9R">
-                                <rect key="frame" x="99" y="589" width="64" height="21"/>
+                                <rect key="frame" x="99" y="589" width="63.5" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="전구 On/Off" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dHR-NA-mQ2">
-                                <rect key="frame" x="249" y="589" width="85" height="21"/>
+                                <rect key="frame" x="236.5" y="589" width="85" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="giN-QU-r7i">
-                                <rect key="frame" x="107" y="632" width="51" height="31"/>
+                                <rect key="frame" x="106.5" y="632" width="51" height="31"/>
                                 <connections>
                                     <action selector="switchResizeImage:" destination="BYZ-38-t0r" eventType="valueChanged" id="gaJ-MF-8Kj"/>
                                 </connections>
                             </switch>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Flg-hg-nIC">
-                                <rect key="frame" x="266" y="632" width="51" height="31"/>
+                                <rect key="frame" x="254.5" y="632" width="51" height="31"/>
                                 <connections>
                                     <action selector="switchImageOnOff:" destination="BYZ-38-t0r" eventType="valueChanged" id="Vtj-6f-IDp"/>
                                 </connections>
@@ -48,14 +48,14 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="giN-QU-r7i" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="107" id="4MB-eL-lwX"/>
-                            <constraint firstItem="Flg-hg-nIC" firstAttribute="top" secondItem="dHR-NA-mQ2" secondAttribute="bottom" constant="22" id="8c5-pQ-BUp"/>
-                            <constraint firstItem="jpu-b6-C9R" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="589" id="8v9-tR-9cc"/>
-                            <constraint firstItem="giN-QU-r7i" firstAttribute="top" secondItem="jpu-b6-C9R" secondAttribute="bottom" constant="22" id="8ve-dz-iVS"/>
-                            <constraint firstItem="jpu-b6-C9R" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="99" id="N0R-EZ-4gw"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Flg-hg-nIC" secondAttribute="trailing" constant="99" id="Stc-hp-s6L"/>
-                            <constraint firstItem="dHR-NA-mQ2" firstAttribute="leading" secondItem="jpu-b6-C9R" secondAttribute="trailing" constant="86" id="oHV-7E-y8a"/>
+                            <constraint firstItem="dHR-NA-mQ2" firstAttribute="leading" secondItem="jpu-b6-C9R" secondAttribute="trailing" constant="74" id="IKx-uU-qs2"/>
+                            <constraint firstItem="jpu-b6-C9R" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="99" id="N29-nn-hOk"/>
+                            <constraint firstItem="Flg-hg-nIC" firstAttribute="centerX" secondItem="dHR-NA-mQ2" secondAttribute="centerX" id="g12-FC-BYV"/>
+                            <constraint firstItem="giN-QU-r7i" firstAttribute="centerX" secondItem="jpu-b6-C9R" secondAttribute="centerX" id="gp3-6d-crR"/>
+                            <constraint firstItem="Flg-hg-nIC" firstAttribute="top" secondItem="giN-QU-r7i" secondAttribute="top" id="lSb-W4-IZO"/>
+                            <constraint firstItem="giN-QU-r7i" firstAttribute="top" secondItem="jpu-b6-C9R" secondAttribute="bottom" constant="22" id="ta6-tR-aXX"/>
                             <constraint firstItem="dHR-NA-mQ2" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="589" id="uQc-oL-lkB"/>
+                            <constraint firstItem="jpu-b6-C9R" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="589" id="zW0-Nl-bMX"/>
                         </constraints>
                     </view>
                     <connections>
@@ -64,7 +64,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1116" y="130"/>
+            <point key="canvasLocation" x="1115.9420289855072" y="129.91071428571428"/>
         </scene>
         <!--Select View Controller-->
         <scene sceneID="0uY-J6-y5T">
